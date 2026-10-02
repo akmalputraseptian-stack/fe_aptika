@@ -55,6 +55,8 @@ export interface ExportPdfOptions {
   metadata?: Partial<RencanaAuditMetadata>;
   leadAuditorName?: string;
   leadAuditorNip?: string;
+  approvedByName?: string;
+  approvedByNip?: string;
   tanggalDokumen?: string;
 }
 
